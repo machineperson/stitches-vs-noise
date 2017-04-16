@@ -1,7 +1,11 @@
 #include <algorithm>
-#include <numeric>
-#include <map>
 #include <iostream>
+#include <map>
+#include <numeric>
+
+#include <random>
+#include <vector>
+
 
 class PerlinNoise {
   // permutation vector
