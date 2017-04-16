@@ -1,4 +1,4 @@
-CC=g++
+CC=clang++
 INCLUDEDIR=include/
 CFLAGS=-std=c++11 -I$(INCLUDEDIR)
 
