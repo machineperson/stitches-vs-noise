@@ -21,7 +21,6 @@ class PerlinNoise {
   double grad(int hash, double x, double y) {
     // we pick only the 4 directions from the center of the cell
     // to its corners (in analogy to the 3d case)
-    std::cerr << "x, y = " << x << ", " << y << '\n';
     double result = 0.00;
     switch (hash & 0x3) {
       case 0x0: {

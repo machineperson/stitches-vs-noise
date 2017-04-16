@@ -89,7 +89,6 @@ int main(int argc, char **argv)
     switch(c) {
       case 'w':
         w = str_to_int(optarg);
-        std::cout << optarg;
         break;
       case 'h':
         h = str_to_int(optarg);
@@ -108,9 +107,6 @@ int main(int argc, char **argv)
     }
 
   }
-  std::cout << w;
-
-  std::cout << h;
   char* pattern = pg.makePattern(w, h);
   for (int row = 0; row < h; ++row) {
     for (int col = 0; col < w; ++col) {
